@@ -1,0 +1,2 @@
+The algorithm first does a close operation on the binary mask to connect any disconnected component that might be part of the face.
+Then it calculates the largest connected region of white color, and fits an ellipse to it.
